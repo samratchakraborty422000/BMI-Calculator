@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&family=Roboto+Condensed&family=Roboto+Mono:wght@700&family=Roboto:wght@700&display=swap');
+
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+   font-family: 'Noto Serif', serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color:  #14171a;
+    color: rgb(229, 239, 239);
+}
+.container{
+   width: 320px;
+   margin-top: 100px;
+   background-color: #192129;
+   box-shadow: 0px 0px 20px 10px #4955a2;
+   padding: 50px;
+   border-radius: 30px;
+   text-align: center;
+}
+
+h1{
+    margin-bottom: 50px;
+}
+
+input{
+    border: none;
+    color: #14171a;
+    margin-bottom: 25px;
+    outline: none;
+    padding: 13px;
+    text-align: center;
+    font-size: 15px;
+}
+
+button{
+    width: 100%;
+    height: 35px;
+    margin-top: 10px;
+    border: none;
+    background-color: rgb(232, 50, 50);
+    color: rgb(209, 207, 226);
+}
+
+#result{
+    margin-top: 20px;
+    font-size: 25px;
+    color: rgb(0, 255, 132);
+}
